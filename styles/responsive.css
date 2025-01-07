@@ -1,0 +1,54 @@
+/* small device responsive starts */
+
+@media only screen and (max-width: 576px){
+    .navbar-container{
+        flex-direction: column;
+    }
+
+    .navbar-logo {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    ul.nav-items {
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .navbar-container {
+        padding: 20px 0px;
+    }
+    
+    .navbar-logo img {
+        width: 80px;
+        height: 70px;
+    }
+
+    section.banner-container {
+        flex-direction: column;
+    }
+    
+    .banner-content {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .banner-img {
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .banner-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .banner-content p {
+        font-size: 2rem;
+    }
+
+    .products-items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
