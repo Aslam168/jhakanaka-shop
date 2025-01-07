@@ -214,7 +214,19 @@ section.gallery-container h1 {
 }
 
 
+/* footer section style starts here */
 
-.color{
-    color:#e893cf #9376e0 #e6e9eb
+.footer{
+    background-color: #9376e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
 }
+
+footer.footer img {
+    width: 40px;
+}
+
+
+/* The end */
